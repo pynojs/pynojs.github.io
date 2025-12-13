@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 5082879 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1765185671535') format('woff2'),
-       url('iconfont.woff?t=1765185671535') format('woff'),
-       url('iconfont.ttf?t=1765185671535') format('truetype');
+       url('iconfont.woff2?t=1765292068655') format('woff2'),
+       url('iconfont.woff?t=1765292068655') format('woff'),
+       url('iconfont.ttf?t=1765292068655') format('truetype');
 }
 
 .iconfont {
@@ -15,7 +15,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-tianyuanquan:before {
-  content: "\e647";
+.icon-ai250:before {
+  content: "\e6ee";
+}
+
+.icon-yueliang:before {
+  content: "\e6a7";
+}
+
+.icon-github:before {
+  content: "\e732";
+}
+
+.icon-chengxuyuan:before {
+  content: "\e608";
+}
+
+.icon-chengxuyuan2:before {
+  content: "\e609";
 }
 

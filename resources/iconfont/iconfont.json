@@ -6,11 +6,39 @@
   "description": "个人网站",
   "glyphs": [
     {
-      "icon_id": "42905934",
-      "name": "田园犬",
-      "font_class": "tianyuanquan",
-      "unicode": "e647",
-      "unicode_decimal": 58951
+      "icon_id": "999258",
+      "name": "太阳",
+      "font_class": "ai250",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "34631593",
+      "name": "月亮",
+      "font_class": "yueliang",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "7239764",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    },
+    {
+      "icon_id": "35758659",
+      "name": "程序员",
+      "font_class": "chengxuyuan",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "46301366",
+      "name": "程序员2",
+      "font_class": "chengxuyuan2",
+      "unicode": "e609",
+      "unicode_decimal": 58889
     }
   ]
 }

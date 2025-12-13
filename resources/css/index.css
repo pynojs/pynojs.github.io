@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', 'SimSun', 'KaiTi';
+    font-size: 1.2rem;
+}
+
+#nav {
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 70px;
+}
+
+.logo {
+    background: linear-gradient(45deg, rgb(30, 96, 98), rgb(207, 16, 16), yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* 可选：加粗或大字号更明显 */
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.logo:hover {
+    background: linear-gradient(45deg, rgb(110, 204, 10), rgb(241, 218, 14), rgb(33, 33, 31), rgb(70, 82, 70), rgb(35, 35, 55), indigo, rgb(9, 9, 9));
+    color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 8px;
+}
+
+.nav-item a {
+    color: black;
+}
+.nav-item span {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.nav-item .github svg {
+    fill: black;
+}
+
+.nav-item .github svg:hover {
+    fill: purple;
+}
+.nav-item .sun-fill svg:hover {
+    fill: purple;
+}
+.nav-item .sun-fill:hover {
+    color: purple;
+}
+
+.dropdown {
+    font-size: 1.2rem;
+}
+.nav-link:focus{
+    color: purple;
+}
+.dropdown-menu {
+    font-size: 1.2rem;
+}
+
