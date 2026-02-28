@@ -2,7 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()], // 启用 React 支持（JSX 转换、Fast Refresh 等）
+  plugins: [react()], // 启用 React 支持（JSX 转换、Fast Refresh 等)
+  base: '/',
 
   // 开发服务器配置
   server: {
@@ -15,6 +16,10 @@ export default defineConfig({
   // 构建输出配置
   build: {
     outDir: 'dist',    // 生产构建输出目录
-    sourcemap: true,   // 生成 source map 方便调试
+    sourcemap: false,   // 生成 source map 方便调试
+  },
+  preview: {
+    host: '10.7.26.84',
+    port: 3000
   }
 });
